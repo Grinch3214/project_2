@@ -576,9 +576,9 @@
 		}
 
 		@media screen and (max-width: 767px) {
-			body.lock {
+			/*body.lock {
 				overflow: hidden;
-			}
+			}*/
 			.wrapper {
 				max-width: none;
 			}
@@ -591,7 +591,7 @@
 				left: 0;
 				width: 100%;
 				height: 100%;
-				overflow: auto;
+				/*overflow: auto;*/
 				background: #78DBE2;
 				padding: 80px 0 0 0;
 				transition: all .6s ease;
@@ -676,6 +676,10 @@
 			.header__nav li {
 				margin: 0 0 28px 0;
 				font-size: 20px;
+			}
+			.header__nav a:hover {
+				color: #FBCEB1;
+				border-bottom: none;
 			}
 			.header__goodday p:before ,
 			.header__goodday p:after {
